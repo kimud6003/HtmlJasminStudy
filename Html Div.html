@@ -1,0 +1,35 @@
+<html>  
+    <head>
+        <style>
+           .a-box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            }
+@media all and (max-width: 768px){
+            .a-box { 
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+            .a-box { 
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            }
+}
+@media all and (min-width: 1024px) {
+            .a-box { 
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            }
+}
+</style>
+    <body>
+        <div class="a-box"></div>
+    </body>
+</html>  

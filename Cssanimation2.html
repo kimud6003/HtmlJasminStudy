@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            position:absolute;
+            width: 100px;
+            height: 100px;
+            left:100px;
+            background: cornflowerblue;
+            
+            
+
+            animation-name: axis;
+            animation-duration: 1s;
+            animation-direction:alternate;
+            animation-fill-mode: forwards;
+            animation-iteration-count: 1;
+            /* 반복횟수 */
+        }
+        @keyframes axis {
+        from {
+            left:0;
+        }
+        to {
+            left:300px;
+        }
+}
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
